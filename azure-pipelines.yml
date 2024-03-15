@@ -1,5 +1,4 @@
 # Node.js
-
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
@@ -23,7 +22,5 @@ steps:
 
 - task: NexusIqPipelineTask@1
   inputs:
-    nexusIqService: 'local_ngrok'
-    applicationId: 'ADO'
-    stage: 'Build'
-    scanTargets: 
+    nexusIqService: 'iq syemane ngrok 24'
+    applicationId: 'juiceshop_ADO'

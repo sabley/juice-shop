@@ -24,3 +24,6 @@ steps:
   inputs:
     nexusIqService: 'iq syemane ngrok 24'
     applicationId: 'juiceshop_ADO'
+    stage: 'Build'
+    scanPipelineWorkspace: true
+    enableDebugLogging: true

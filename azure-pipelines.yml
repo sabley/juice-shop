@@ -25,4 +25,4 @@ steps:
     nexusIqService: 'iq syemane ngrok 24'
     applicationId: 'juiceshop_2'
     stage: 'Build'
-    scanTargets: '**/*.json'
+    scanTargets: '**/*.js, **/*.ts, **/*.tgz, **/*.json, **/*.lock, **/*.yaml'

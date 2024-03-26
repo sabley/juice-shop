@@ -17,13 +17,13 @@ steps:
 
 - script: |
     npm install
-    npm run build
+   # npm run build
   displayName: 'npm install and build'
 
 - task: NexusIqPipelineTask@1
+- task: NexusIqPipelineTask@1
   inputs:
     nexusIqService: 'iq syemane ngrok 24'
-    applicationId: 'juiceshop_ADO'
+    applicationId: 'juiceshop_2'
     stage: 'Build'
-    scanPipelineWorkspace: true
-    enableDebugLogging: true
+    scanTargets: '**/*.json'

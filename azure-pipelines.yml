@@ -21,7 +21,6 @@ steps:
   displayName: 'npm install and build'
 
 - task: NexusIqPipelineTask@1
-- task: NexusIqPipelineTask@1
   inputs:
     nexusIqService: 'iq syemane ngrok 24'
     applicationId: 'juiceshop_2'
